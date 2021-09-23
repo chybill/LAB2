@@ -105,6 +105,7 @@ public class kkpkkp {
         
         
         for (int i=0;i<v.size()-1;i++){
+            //Eliminate the if and else that meet and count
             if(v.elementAt(i)==1&&v.elementAt(i+1)==-1){
                 v.remove(i);
                 v.remove(i);
