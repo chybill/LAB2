@@ -122,6 +122,7 @@ public class kkpkkp {
         }
 
         while(true) {
+            //Eliminate the else if and else that meet and count
             for (int i = 0; i < v.size()-1; i++) {
                 if (v.elementAt(i) == 2 && v.elementAt(i + 1) == -1) {
                     v.remove(i);
