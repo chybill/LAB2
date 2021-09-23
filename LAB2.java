@@ -95,11 +95,15 @@ public class kkpkkp {
 
         int cifelse = 0;
         int cifelseif = 0;
+        
+        //Cancels consecutive else ifs.
         for (int i=1;i<v.size()-1;i++){
             if(v.elementAt(i)==2&&v.elementAt(i-1)==2){
                 v.remove(i);
             }
         }
+        
+        
         for (int i=0;i<v.size()-1;i++){
             if(v.elementAt(i)==1&&v.elementAt(i+1)==-1){
                 v.remove(i);
