@@ -113,6 +113,8 @@ public class kkpkkp {
             }
             if(i>=v.size())
                 break;
+            
+            //Change the if and else if that meet into an else if
             if(v.elementAt(i)==1&&v.elementAt(i+1)==2){
                 v.remove(i);
             }
