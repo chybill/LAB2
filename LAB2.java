@@ -140,10 +140,5 @@ public class kkpkkp {
         }
         return count;
     }
-
-    static public void ifelsecount(String str,int elsenum,int elseifnum){
-        Stack<String> s = new Stack<>();
-
-    }
 }
 
