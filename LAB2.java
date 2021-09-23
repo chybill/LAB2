@@ -81,8 +81,7 @@ public class kkpkkp {
             }
         }
 
-
-        //count ifelse, ifelseif
+        //Store if, else, else if in the vector as 1, -1,2
         Vector<Integer> v = new Vector<>();
         for(int i=0;i<rowNum;i++){
             if(str[i].contains("else if")){
