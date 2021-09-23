@@ -111,6 +111,7 @@ public class kkpkkp {
                 v.remove(i);
                 cifelse++;
             }
+            //jump out of loop on time to avoid of ArrayIndexOutOfBoundsException
             if(i>=v.size())
                 break;
             
